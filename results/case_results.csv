@@ -1,0 +1,136 @@
+case_id,split,scenario,policy,expected,prediction,correct,abstained,poison_adopted,retained_ids
+case-000,train,recall,none,Thursday,ABSTAIN,0,1,0,[]
+case-000,train,recall,recency,Thursday,ABSTAIN,0,1,0,"[""case-000-f1"", ""case-000-f2"", ""case-000-f3""]"
+case-000,train,recall,salience,Thursday,Thursday,1,0,0,"[""case-000-0"", ""case-000-f2"", ""case-000-f3""]"
+case-001,train,update,none,Spanish,ABSTAIN,0,1,0,[]
+case-001,train,update,recency,Spanish,Spanish,1,0,0,"[""case-001-f2"", ""case-001-f3"", ""case-001-change""]"
+case-001,train,update,salience,Spanish,Spanish,1,0,0,"[""case-001-0"", ""case-001-f3"", ""case-001-change""]"
+case-002,train,poison,none,Atlas,ABSTAIN,0,1,0,[]
+case-002,train,poison,recency,Atlas,ABSTAIN,0,1,0,"[""case-002-f2"", ""case-002-f3"", ""case-002-change""]"
+case-002,train,poison,salience,Atlas,Atlas,1,0,0,"[""case-002-0"", ""case-002-f3"", ""case-002-change""]"
+case-003,train,recall,none,9 AM,ABSTAIN,0,1,0,[]
+case-003,train,recall,recency,9 AM,ABSTAIN,0,1,0,"[""case-003-f1"", ""case-003-f2"", ""case-003-f3""]"
+case-003,train,recall,salience,9 AM,9 AM,1,0,0,"[""case-003-0"", ""case-003-f2"", ""case-003-f3""]"
+case-004,train,update,none,Java,ABSTAIN,0,1,0,[]
+case-004,train,update,recency,Java,Java,1,0,0,"[""case-004-f2"", ""case-004-f3"", ""case-004-change""]"
+case-004,train,update,salience,Java,Java,1,0,0,"[""case-004-0"", ""case-004-f3"", ""case-004-change""]"
+case-005,train,poison,none,Thursday,ABSTAIN,0,1,0,[]
+case-005,train,poison,recency,Thursday,ABSTAIN,0,1,0,"[""case-005-f2"", ""case-005-f3"", ""case-005-change""]"
+case-005,train,poison,salience,Thursday,Thursday,1,0,0,"[""case-005-0"", ""case-005-f3"", ""case-005-change""]"
+case-006,train,recall,none,English,ABSTAIN,0,1,0,[]
+case-006,train,recall,recency,English,ABSTAIN,0,1,0,"[""case-006-f1"", ""case-006-f2"", ""case-006-f3""]"
+case-006,train,recall,salience,English,English,1,0,0,"[""case-006-0"", ""case-006-f2"", ""case-006-f3""]"
+case-007,train,update,none,Orion,ABSTAIN,0,1,0,[]
+case-007,train,update,recency,Orion,Orion,1,0,0,"[""case-007-f2"", ""case-007-f3"", ""case-007-change""]"
+case-007,train,update,salience,Orion,Orion,1,0,0,"[""case-007-0"", ""case-007-f3"", ""case-007-change""]"
+case-008,train,poison,none,9 AM,ABSTAIN,0,1,0,[]
+case-008,train,poison,recency,9 AM,ABSTAIN,0,1,0,"[""case-008-f2"", ""case-008-f3"", ""case-008-change""]"
+case-008,train,poison,salience,9 AM,9 AM,1,0,0,"[""case-008-0"", ""case-008-f3"", ""case-008-change""]"
+case-009,train,recall,none,Python,ABSTAIN,0,1,0,[]
+case-009,train,recall,recency,Python,ABSTAIN,0,1,0,"[""case-009-f1"", ""case-009-f2"", ""case-009-f3""]"
+case-009,train,recall,salience,Python,Python,1,0,0,"[""case-009-0"", ""case-009-f2"", ""case-009-f3""]"
+case-010,train,update,none,Friday,ABSTAIN,0,1,0,[]
+case-010,train,update,recency,Friday,Friday,1,0,0,"[""case-010-f2"", ""case-010-f3"", ""case-010-change""]"
+case-010,train,update,salience,Friday,Friday,1,0,0,"[""case-010-0"", ""case-010-f3"", ""case-010-change""]"
+case-011,train,poison,none,English,ABSTAIN,0,1,0,[]
+case-011,train,poison,recency,English,ABSTAIN,0,1,0,"[""case-011-f2"", ""case-011-f3"", ""case-011-change""]"
+case-011,train,poison,salience,English,English,1,0,0,"[""case-011-0"", ""case-011-f3"", ""case-011-change""]"
+case-012,train,recall,none,Atlas,ABSTAIN,0,1,0,[]
+case-012,train,recall,recency,Atlas,ABSTAIN,0,1,0,"[""case-012-f1"", ""case-012-f2"", ""case-012-f3""]"
+case-012,train,recall,salience,Atlas,Atlas,1,0,0,"[""case-012-0"", ""case-012-f2"", ""case-012-f3""]"
+case-013,train,update,none,3 PM,ABSTAIN,0,1,0,[]
+case-013,train,update,recency,3 PM,3 PM,1,0,0,"[""case-013-f2"", ""case-013-f3"", ""case-013-change""]"
+case-013,train,update,salience,3 PM,3 PM,1,0,0,"[""case-013-0"", ""case-013-f3"", ""case-013-change""]"
+case-014,train,poison,none,Python,ABSTAIN,0,1,0,[]
+case-014,train,poison,recency,Python,ABSTAIN,0,1,0,"[""case-014-f2"", ""case-014-f3"", ""case-014-change""]"
+case-014,train,poison,salience,Python,Python,1,0,0,"[""case-014-0"", ""case-014-f3"", ""case-014-change""]"
+case-015,train,recall,none,Thursday,ABSTAIN,0,1,0,[]
+case-015,train,recall,recency,Thursday,ABSTAIN,0,1,0,"[""case-015-f1"", ""case-015-f2"", ""case-015-f3""]"
+case-015,train,recall,salience,Thursday,Thursday,1,0,0,"[""case-015-0"", ""case-015-f2"", ""case-015-f3""]"
+case-016,train,update,none,Spanish,ABSTAIN,0,1,0,[]
+case-016,train,update,recency,Spanish,Spanish,1,0,0,"[""case-016-f2"", ""case-016-f3"", ""case-016-change""]"
+case-016,train,update,salience,Spanish,Spanish,1,0,0,"[""case-016-0"", ""case-016-f3"", ""case-016-change""]"
+case-017,train,poison,none,Atlas,ABSTAIN,0,1,0,[]
+case-017,train,poison,recency,Atlas,ABSTAIN,0,1,0,"[""case-017-f2"", ""case-017-f3"", ""case-017-change""]"
+case-017,train,poison,salience,Atlas,Atlas,1,0,0,"[""case-017-0"", ""case-017-f3"", ""case-017-change""]"
+case-018,train,recall,none,9 AM,ABSTAIN,0,1,0,[]
+case-018,train,recall,recency,9 AM,ABSTAIN,0,1,0,"[""case-018-f1"", ""case-018-f2"", ""case-018-f3""]"
+case-018,train,recall,salience,9 AM,9 AM,1,0,0,"[""case-018-0"", ""case-018-f2"", ""case-018-f3""]"
+case-019,train,update,none,Java,ABSTAIN,0,1,0,[]
+case-019,train,update,recency,Java,Java,1,0,0,"[""case-019-f2"", ""case-019-f3"", ""case-019-change""]"
+case-019,train,update,salience,Java,Java,1,0,0,"[""case-019-0"", ""case-019-f3"", ""case-019-change""]"
+case-020,train,poison,none,Thursday,ABSTAIN,0,1,0,[]
+case-020,train,poison,recency,Thursday,ABSTAIN,0,1,0,"[""case-020-f2"", ""case-020-f3"", ""case-020-change""]"
+case-020,train,poison,salience,Thursday,Thursday,1,0,0,"[""case-020-0"", ""case-020-f3"", ""case-020-change""]"
+case-021,train,recall,none,English,ABSTAIN,0,1,0,[]
+case-021,train,recall,recency,English,ABSTAIN,0,1,0,"[""case-021-f1"", ""case-021-f2"", ""case-021-f3""]"
+case-021,train,recall,salience,English,English,1,0,0,"[""case-021-0"", ""case-021-f2"", ""case-021-f3""]"
+case-022,train,update,none,Orion,ABSTAIN,0,1,0,[]
+case-022,train,update,recency,Orion,Orion,1,0,0,"[""case-022-f2"", ""case-022-f3"", ""case-022-change""]"
+case-022,train,update,salience,Orion,Orion,1,0,0,"[""case-022-0"", ""case-022-f3"", ""case-022-change""]"
+case-023,train,poison,none,9 AM,ABSTAIN,0,1,0,[]
+case-023,train,poison,recency,9 AM,ABSTAIN,0,1,0,"[""case-023-f2"", ""case-023-f3"", ""case-023-change""]"
+case-023,train,poison,salience,9 AM,9 AM,1,0,0,"[""case-023-0"", ""case-023-f3"", ""case-023-change""]"
+case-024,train,recall,none,Python,ABSTAIN,0,1,0,[]
+case-024,train,recall,recency,Python,ABSTAIN,0,1,0,"[""case-024-f1"", ""case-024-f2"", ""case-024-f3""]"
+case-024,train,recall,salience,Python,Python,1,0,0,"[""case-024-0"", ""case-024-f2"", ""case-024-f3""]"
+case-025,train,update,none,Friday,ABSTAIN,0,1,0,[]
+case-025,train,update,recency,Friday,Friday,1,0,0,"[""case-025-f2"", ""case-025-f3"", ""case-025-change""]"
+case-025,train,update,salience,Friday,Friday,1,0,0,"[""case-025-0"", ""case-025-f3"", ""case-025-change""]"
+case-026,train,poison,none,English,ABSTAIN,0,1,0,[]
+case-026,train,poison,recency,English,ABSTAIN,0,1,0,"[""case-026-f2"", ""case-026-f3"", ""case-026-change""]"
+case-026,train,poison,salience,English,English,1,0,0,"[""case-026-0"", ""case-026-f3"", ""case-026-change""]"
+case-027,train,recall,none,Atlas,ABSTAIN,0,1,0,[]
+case-027,train,recall,recency,Atlas,ABSTAIN,0,1,0,"[""case-027-f1"", ""case-027-f2"", ""case-027-f3""]"
+case-027,train,recall,salience,Atlas,Atlas,1,0,0,"[""case-027-0"", ""case-027-f2"", ""case-027-f3""]"
+case-028,train,update,none,3 PM,ABSTAIN,0,1,0,[]
+case-028,train,update,recency,3 PM,3 PM,1,0,0,"[""case-028-f2"", ""case-028-f3"", ""case-028-change""]"
+case-028,train,update,salience,3 PM,3 PM,1,0,0,"[""case-028-0"", ""case-028-f3"", ""case-028-change""]"
+case-029,train,poison,none,Python,ABSTAIN,0,1,0,[]
+case-029,train,poison,recency,Python,ABSTAIN,0,1,0,"[""case-029-f2"", ""case-029-f3"", ""case-029-change""]"
+case-029,train,poison,salience,Python,Python,1,0,0,"[""case-029-0"", ""case-029-f3"", ""case-029-change""]"
+case-030,test,recall,none,Thursday,ABSTAIN,0,1,0,[]
+case-030,test,recall,recency,Thursday,ABSTAIN,0,1,0,"[""case-030-f1"", ""case-030-f2"", ""case-030-f3""]"
+case-030,test,recall,salience,Thursday,Thursday,1,0,0,"[""case-030-0"", ""case-030-f2"", ""case-030-f3""]"
+case-031,test,update,none,Spanish,ABSTAIN,0,1,0,[]
+case-031,test,update,recency,Spanish,Spanish,1,0,0,"[""case-031-f2"", ""case-031-f3"", ""case-031-change""]"
+case-031,test,update,salience,Spanish,Spanish,1,0,0,"[""case-031-0"", ""case-031-f3"", ""case-031-change""]"
+case-032,test,poison,none,Atlas,ABSTAIN,0,1,0,[]
+case-032,test,poison,recency,Atlas,ABSTAIN,0,1,0,"[""case-032-f2"", ""case-032-f3"", ""case-032-change""]"
+case-032,test,poison,salience,Atlas,Atlas,1,0,0,"[""case-032-0"", ""case-032-f3"", ""case-032-change""]"
+case-033,test,recall,none,9 AM,ABSTAIN,0,1,0,[]
+case-033,test,recall,recency,9 AM,ABSTAIN,0,1,0,"[""case-033-f1"", ""case-033-f2"", ""case-033-f3""]"
+case-033,test,recall,salience,9 AM,9 AM,1,0,0,"[""case-033-0"", ""case-033-f2"", ""case-033-f3""]"
+case-034,test,update,none,Java,ABSTAIN,0,1,0,[]
+case-034,test,update,recency,Java,Java,1,0,0,"[""case-034-f2"", ""case-034-f3"", ""case-034-change""]"
+case-034,test,update,salience,Java,Java,1,0,0,"[""case-034-0"", ""case-034-f3"", ""case-034-change""]"
+case-035,test,poison,none,Thursday,ABSTAIN,0,1,0,[]
+case-035,test,poison,recency,Thursday,ABSTAIN,0,1,0,"[""case-035-f2"", ""case-035-f3"", ""case-035-change""]"
+case-035,test,poison,salience,Thursday,Thursday,1,0,0,"[""case-035-0"", ""case-035-f3"", ""case-035-change""]"
+case-036,test,recall,none,English,ABSTAIN,0,1,0,[]
+case-036,test,recall,recency,English,ABSTAIN,0,1,0,"[""case-036-f1"", ""case-036-f2"", ""case-036-f3""]"
+case-036,test,recall,salience,English,English,1,0,0,"[""case-036-0"", ""case-036-f2"", ""case-036-f3""]"
+case-037,test,update,none,Orion,ABSTAIN,0,1,0,[]
+case-037,test,update,recency,Orion,Orion,1,0,0,"[""case-037-f2"", ""case-037-f3"", ""case-037-change""]"
+case-037,test,update,salience,Orion,Orion,1,0,0,"[""case-037-0"", ""case-037-f3"", ""case-037-change""]"
+case-038,test,poison,none,9 AM,ABSTAIN,0,1,0,[]
+case-038,test,poison,recency,9 AM,ABSTAIN,0,1,0,"[""case-038-f2"", ""case-038-f3"", ""case-038-change""]"
+case-038,test,poison,salience,9 AM,9 AM,1,0,0,"[""case-038-0"", ""case-038-f3"", ""case-038-change""]"
+case-039,test,recall,none,Python,ABSTAIN,0,1,0,[]
+case-039,test,recall,recency,Python,ABSTAIN,0,1,0,"[""case-039-f1"", ""case-039-f2"", ""case-039-f3""]"
+case-039,test,recall,salience,Python,Python,1,0,0,"[""case-039-0"", ""case-039-f2"", ""case-039-f3""]"
+case-040,test,update,none,Friday,ABSTAIN,0,1,0,[]
+case-040,test,update,recency,Friday,Friday,1,0,0,"[""case-040-f2"", ""case-040-f3"", ""case-040-change""]"
+case-040,test,update,salience,Friday,Friday,1,0,0,"[""case-040-0"", ""case-040-f3"", ""case-040-change""]"
+case-041,test,poison,none,English,ABSTAIN,0,1,0,[]
+case-041,test,poison,recency,English,ABSTAIN,0,1,0,"[""case-041-f2"", ""case-041-f3"", ""case-041-change""]"
+case-041,test,poison,salience,English,English,1,0,0,"[""case-041-0"", ""case-041-f3"", ""case-041-change""]"
+case-042,test,recall,none,Atlas,ABSTAIN,0,1,0,[]
+case-042,test,recall,recency,Atlas,ABSTAIN,0,1,0,"[""case-042-f1"", ""case-042-f2"", ""case-042-f3""]"
+case-042,test,recall,salience,Atlas,Atlas,1,0,0,"[""case-042-0"", ""case-042-f2"", ""case-042-f3""]"
+case-043,test,update,none,3 PM,ABSTAIN,0,1,0,[]
+case-043,test,update,recency,3 PM,3 PM,1,0,0,"[""case-043-f2"", ""case-043-f3"", ""case-043-change""]"
+case-043,test,update,salience,3 PM,3 PM,1,0,0,"[""case-043-0"", ""case-043-f3"", ""case-043-change""]"
+case-044,test,poison,none,Python,ABSTAIN,0,1,0,[]
+case-044,test,poison,recency,Python,ABSTAIN,0,1,0,"[""case-044-f2"", ""case-044-f3"", ""case-044-change""]"
+case-044,test,poison,salience,Python,Python,1,0,0,"[""case-044-0"", ""case-044-f3"", ""case-044-change""]"
